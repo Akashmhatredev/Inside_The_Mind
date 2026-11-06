@@ -1,0 +1,26 @@
+{
+  "name": "akash-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Inside the Mind of Akash Mhatre: an immersive full-stack developer portfolio.",
+  "scripts": {
+    "dev": "vite --port 5180",
+    "build": "vite build",
+    "preview": "vite preview --port 5181"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "^5.3.0",
+    "@fontsource-variable/jetbrains-mono": "^5.3.0",
+    "@fontsource/instrument-serif": "^5.3.0",
+    "gsap": "^3.15.0",
+    "vue": "^3.5.44"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.10",
+    "vite": "^8.3.4"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}
