@@ -1,0 +1,44 @@
+:root {
+  /* Grounds: dusk at the top, midnight at the end. Each chapter owns one. */
+  --dusk: #2e2b58;
+  --dusk-glow: #c85a3c;
+  --deep: #14122a;
+  --plum: #7a3b5a;
+  --teal: #1f4b5c;
+  --cobalt: #2d3f7c;
+  --indigo: #27244b;
+  --pine: #2b4a45;
+  --amber: #6b4f1d;
+  --terracotta: #8a4a2c;
+  --night: #1b1936;
+  --midnight: #0d0c1a;
+
+  --fg: #f6f1e7;
+  --fg-dim: rgba(246, 241, 231, 0.72);
+  --fg-faint: rgba(246, 241, 231, 0.45);
+  --ink: #15131f;
+  --paper: #f6f1e7;
+  --lime: #d7f26b;
+  --sun: #ffb454;
+  --sky: #7cc6ff;
+  --rose: #ff7a90;
+  --sel: #3d8bff;
+  --sel-deep: #1f5fcc;
+
+  --font-display: 'Bricolage Grotesque Variable', 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-serif: 'Instrument Serif', Georgia, serif;
+  --font-mono: 'JetBrains Mono Variable', 'JetBrains Mono', ui-monospace, Menlo, monospace;
+
+  --pad: clamp(16px, 2.2vw, 32px);
+  --frame: clamp(6px, 0.9vw, 12px);
+  --radius: 18px;
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  --giant: clamp(64px, 11vw, 190px);
+  --huge: clamp(48px, 8vw, 140px);
+  --big: clamp(36px, 5.2vw, 88px);
+  --lead: clamp(17px, 1.35vw, 22px);
+  --body: clamp(15px, 1.05vw, 17px);
+  --small: clamp(12px, 0.85vw, 14px);
+}
